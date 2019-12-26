@@ -1,1 +1,1 @@
-First git project for Sam.
+# Google Homepage Mock-up
