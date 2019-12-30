@@ -43,3 +43,10 @@ header {
   padding: 0 12px;
   border-radius: 2px;
 }
+
+/* Search Bar */
+#google {
+  display: block;
+  padding-top: 100px;
+  margin: 0 auto;
+}
