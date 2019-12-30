@@ -3,33 +3,41 @@
   <head>
     <meta charset="utf-8">
     <title>Google Homepage Mock-up</title>
+    <link href="css/reset.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
     <script type="text/javascript" src="js/app.js"></script>
   </head>
   <body>
-    <header>
-      <a href="#">About</a>
-      <a href="#">Store</a>
+    <div class="container">
+      <header>
+        <div class="left">
+          <a href="#">About</a>
+          <a href="#">Store</a>
+        </div>
+        <div class="right">
+          <a href="#">Gmail</a>
+          <a href="#">Images</a>
+          <div class="iconsRight">
+            <a href="#"><img id="app" src="img/apps.png" alt="apps"></a>
+            <a href="#"><button class="login" type="button" name="button">Sign In</button></a>
+          </div>
+        </div>
+      </header>
+      <main>
+        <img src="img/google.png" alt="logo">
+        <input type="search" name="google" id="google-search" aria-label="Google Searchbar">
+        <button type="button" name="button">Google Search</button>
+        <button type="button" name="button">I'm Feeling Lucky</button>
+      </main>
+      <footer>
+        <a href="#">Advertising</a>
+        <a href="#">Business</a>
+        <a href="#">How Search works</a>
 
-      <a href="#">Gmail</a>
-      <a href="#">Images</a>
-      <a href="#"><img src="img/apps.png" alt="apps"></a>
-      <a href="#"><button type="button" name="button">Sign In</button></a>
-    </header>
-    <main>
-      <img src="img/google.png" alt="logo">
-      <input type="search" name="google" id="google-search" aria-label="Google Searchbar">
-      <button type="button" name="button">Google Search</button>
-      <button type="button" name="button">I'm Feeling Lucky</button>
-    </main>
-    <footer>
-      <a href="#">Advertising</a>
-      <a href="#">Business</a>
-      <a href="#">How Search works</a>
-
-      <a href="#">Privacy</a>
-      <a href="#">Terms</a>
-      <a href="#">Settings</a>
-    </footer>
+        <a href="#">Privacy</a>
+        <a href="#">Terms</a>
+        <a href="#">Settings</a>
+      </footer>
+  </div>
   </body>
 </html>

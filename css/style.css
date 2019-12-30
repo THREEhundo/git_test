@@ -1,9 +1,45 @@
-body {
-
+body, a {
+ font-family: arial;
 }
-img {
 
-}
 a {
+  color: #000;
+  opacity: 0.75;
+  font-size: 13px;
+  text-decoration: none;
+  height: 25px;
+}
 
+/* HEADER */
+header {
+  display: flex;
+  margin: 20px 1px auto 20px;
+  justify-content: space-between;
+  align-items: center;
+
+}
+.left .right {
+  text-align: center;
+}
+
+.iconsRight {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+#app {
+  width: 25px;
+  line-height: 28px;
+  vertical-align: -8px;
+}
+
+.login {
+  line-height: 28px;
+  border: 1px solid #4285f4;
+  font-weight: bold;
+  color: #fff;
+  outline: none;
+  background: #4285f4;
+  padding: 0 12px;
+  border-radius: 2px;
 }
