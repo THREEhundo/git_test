@@ -47,6 +47,33 @@ header {
 /* Search Bar */
 #google {
   display: block;
-  padding-top: 100px;
+  padding-top: 109px;
   margin: 0 auto;
+}
+
+#google-search {
+  width: 482px;
+  height: 44px;
+  display: block;
+  margin: 2rem auto;
+  border-radius: 25px;
+  border: 1px solid #c6c6c6;
+  background: no-repeat 3.5%/3% url(/home/threehundo/github/odin_on_rails/google_mockup/img/mag.png),
+  no-repeat 97.5%/5% url(/home/threehundo/github/odin_on_rails/google_mockup/img/mic.png);
+  padding-left: 30px;
+}
+
+.buttons {
+  margin: 0 auto;
+  width: 265px;
+}
+.buttons button {
+  display: inline-block;
+  line-height: 28px;
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  border-radius: 4px;
+  height: 36px;
+  margin: auto 4px;
+  font-size: 14px;
 }
